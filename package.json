@@ -5,7 +5,8 @@
   "scripts": {
     "ng": "nx",
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
-    "start": "nx serve",
+    "start:angular": "nx serve module-federation-angular",
+    "start:reactjs": "nx serve module-federation-reactjs --port 3000",
     "build": "nx build",
     "test": "nx test"
   },
