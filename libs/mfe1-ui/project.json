@@ -1,0 +1,27 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/mfe1-ui/src",
+  "prefix": "module-federation-research",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": [
+        "coverage/libs/mfe1-ui"
+      ],
+      "options": {
+        "jestConfig": "libs/mfe1-ui/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/mfe1-ui/**/*.ts",
+          "libs/mfe1-ui/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

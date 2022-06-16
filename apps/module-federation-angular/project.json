@@ -5,7 +5,9 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/module-federation-angular",
         "index": "apps/module-federation-angular/src/index.html",
@@ -17,7 +19,9 @@
           "apps/module-federation-angular/src/favicon.ico",
           "apps/module-federation-angular/src/assets"
         ],
-        "styles": ["apps/module-federation-angular/src/styles.scss"],
+        "styles": [
+          "apps/module-federation-angular/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {
@@ -82,7 +86,9 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/module-federation-angular"],
+      "outputs": [
+        "coverage/apps/module-federation-angular"
+      ],
       "options": {
         "jestConfig": "apps/module-federation-angular/jest.config.ts",
         "passWithNoTests": true

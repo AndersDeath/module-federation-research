@@ -4,6 +4,7 @@
   "projects": {
     "mfe1": "apps/mfe1",
     "mfe1-e2e": "apps/mfe1-e2e",
+    "mfe1-ui": "libs/mfe1-ui",
     "module-federation-angular": "apps/module-federation-angular",
     "module-federation-angular-e2e": "apps/module-federation-angular-e2e",
     "module-federation-reactjs": "apps/module-federation-reactjs",

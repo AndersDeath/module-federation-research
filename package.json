@@ -6,9 +6,12 @@
     "ng": "nx",
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
     "start:angular": "nx serve module-federation-angular",
+    "start:shell": "nx serve shell --port 4201",
+    "start:mfe1": "nx serve shell --port 4202",
     "start:reactjs": "nx serve module-federation-reactjs --port 3000",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
   },
   "private": true,
   "dependencies": {
@@ -65,6 +68,7 @@
     "eslint-plugin-react-hooks": "4.5.0",
     "jest": "27.5.1",
     "jest-preset-angular": "~11.1.2",
+    "ngx-build-plus": "^14.0.0",
     "nx": "14.3.2",
     "prettier": "^2.6.2",
     "react-test-renderer": "18.1.0",
