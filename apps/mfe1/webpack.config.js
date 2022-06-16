@@ -11,5 +11,5 @@ module.exports = withModuleFederationPlugin({
   shared: {
     ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
   },
-
+  sharedMappings: ['@module-federation-research/mfe1-ui'],
 });
