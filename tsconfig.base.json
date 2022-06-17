@@ -10,24 +10,14 @@
     "importHelpers": true,
     "target": "es2020",
     "module": "esnext",
-    "lib": [
-      "es2017",
-      "dom"
-    ],
+    "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@module-federation-research/mfe1-ui": [
-        "libs/mfe1-ui/src/index.ts"
-      ],
-      "@module-federation-research/shared-lib": [
-        "libs/shared-lib/src/index.ts"
-      ]
+      "@module-federation-research/mfe1-ui": ["libs/mfe1-ui/src/index.ts"],
+      "@module-federation-research/shared-lib": ["libs/shared-lib/src/index.ts"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }
