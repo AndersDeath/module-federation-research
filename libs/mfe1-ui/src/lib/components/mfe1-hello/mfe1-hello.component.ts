@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mfe1-hello.component.scss'],
 })
 export class Mfe1HelloComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    console.log('this is mf1')
+  }
 }

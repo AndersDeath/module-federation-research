@@ -6,7 +6,7 @@
     "ng": "nx",
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
     "start:shell": "nx serve shell --port 4201",
-    "start:mfe1": "nx serve shell --port 4202",
+    "start:mfe1": "nx serve mfe1 --port 4202",
     "build": "nx build",
     "test": "nx test",
     "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
